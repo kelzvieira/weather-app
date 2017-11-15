@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.wthr-header {
+  background-color: #999;
+  background: url('https://images.unsplash.com/photo-1506374322094-6021fc3926f1?auto=format&fit=crop&w=1406&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D') center no-repeat, linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ;
+  background-blend-mode: overlay;
+  height: 150px;
+  padding: 20px;
+  vertical-align: middle;
+  line-height:150px;
+  color: white;
+}
+
+.wthr-title {
+  font-size: 1.5em;
+  display:inline-block;
+  vertical-align: middle;
+  line-height: 1.1;
+  text-shadow: 2px 2px #333;
+}
+
+.forecast {
+  display: inline-block;
+  width: 30%;
+  max-width: 100px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.wthr-icon-raindrop {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 10em;
+  height: 10em;
+  border: none;
+  -webkit-border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+  border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #1abc9c;
+  -webkit-transform: rotateZ(-45deg)   ;
+  transform: rotateZ(-45deg)   ;
+}
+
+.wthr-icon-cloud {
+	background: #fff;
+	background: -moz-linear-gradient(top,  #fff 5%, #f1f1f1 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,#fff), color-stop(100%,#f1f1f1));
+	background: -webkit-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
+	background: -o-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
+	background: -ms-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
+	background: linear-gradient(to bottom,  #fff 5%,#f1f1f1 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#f1f1f1',GradientType=0 );
+
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+
+	-webkit-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+
+	height: 120px;
+	position: relative;
+	width: 350px;
+}
